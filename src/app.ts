@@ -32,6 +32,7 @@ app.use((err: error, req: Request, res: Response, next: NextFunction) => {
 	res.status(status).send(message);
 });
 
+//Adding routes created.
 app.use('/api', routes);
 
 export default app;
