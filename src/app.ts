@@ -33,6 +33,6 @@ app.use((err: error, req: Request, res: Response, next: NextFunction) => {
 });
 
 //Adding routes created.
-app.use('/api', routes);
+app.use('/', routes);
 
 export default app;
