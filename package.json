@@ -9,7 +9,7 @@
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "dev": "nodemon index.ts"
+    "start": "nodemon index.ts"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
